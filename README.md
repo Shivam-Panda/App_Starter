@@ -4,6 +4,9 @@ Backend Development Run Command: flask --app backend run --debug
 
 Backend Package Download: pip install -r ./requirements.txt
 - Make sure to be in the backend folder
+- Make sure to be in a virtual environments
+    - To create one: python -m venv (name of environment)
+    - To activate one: (name of environment)\Scripts\activate
 
 Backend New Packages Download: pip freeze > requirements.txt
 - Make sure to run this in backend folder
